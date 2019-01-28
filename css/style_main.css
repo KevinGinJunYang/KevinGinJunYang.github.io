@@ -15,9 +15,10 @@ h3,
 h4,
 h5,
 h6 {
-font-weight: 300;
+	
     letter-spacing: 0.4px;
-    font-family: "Open Sans", Sans-serif;
+    font-family: "Open Sans", Sans-serif !important;
+	font-weight: 300;
     color: #232323;
 	color: white;
 }
@@ -100,9 +101,9 @@ figure {
     background: #726FB9;
     text-align: center;
     cursor: pointer;	
-	-moz-box-shadow: 0 0 5px #fff;
-	-webkit-box-shadow: 0 0 5px #fff;
-	box-shadow: 0px 0px 5px #fff;
+	-moz-box-shadow: 0 0 10px #fff;
+	-webkit-box-shadow: 0 0 10px #fff;
+	box-shadow: 0px 0px 10px #fff;
 }
 
 figcaption {
@@ -111,9 +112,9 @@ figcaption {
     left: 0;
     width: 100%;
     height: 100%;	
-	-moz-box-shadow: 0 0 5px #fff;
-	-webkit-box-shadow: 0 0 5px #fff;
-	box-shadow: 0px 0px 5px #fff;
+	-moz-box-shadow: 0 0 10px #fff;
+	-webkit-box-shadow: 0 0 10px #fff;
+	box-shadow: 0px 0px 10px #fff;
 }
 
 .ot-portfolio-item figure figcaption > a {
