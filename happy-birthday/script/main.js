@@ -216,7 +216,7 @@ const animationTimeline = () => {
         opacity: 0,
         x: 25,
         y: -25,
-        rotationZ: -45
+        rotationZ: -45,
       },
       "-=2"
     )
@@ -249,7 +249,7 @@ const animationTimeline = () => {
       {
         scale: 1,
         rotationY: 0,
-        color: "#ff69b4",
+        color: "#f44336",
         ease: Expo.easeOut
       },
       0.1,
@@ -277,21 +277,6 @@ const animationTimeline = () => {
       },
       0.3
     )
-    .to(".six", 0.5, {
-      opacity: 0,
-      y: 30,
-      zIndex: "-1"
-    })
-    .staggerFrom(".nine p", 1, ideaTextTrans, 1.2)
-
-  // tl.seek("currentStep");
-  // tl.timeScale(2);
-
-  // Restart Animation on click
-  const replyBtn = document.getElementById("replay");
-  replyBtn.addEventListener("click", () => {
-    tl.restart();
-  });
 };
 
 // Run fetch and animation in sequence
