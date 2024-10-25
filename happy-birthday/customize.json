@@ -1,12 +1,12 @@
 {
-  "greeting": "Hiya",
-  "name": "Lydia",
-  "greetingText": "I really like your name btw!",
-  "wishText": "May the js.prototypes always be with you! ;)",
-  "imagePath": "img/lydia2.png",
+  "greeting": "Baobao",
+  "name": "Elena",
+  "greetingText": "Guesss what day it is today!",
+  "wishText": "Wish you Happiness and Health, Hope your day is filled with love and joy. Here's to celebrating the most incrediable woman! weeeeeeeee hooooo",
+  "imagePath": "img/elena.jpg",
   "text1": "It's your birthday!!! :D",
-  "textInChatBox": "Happy birthday to you!! Yeee! Many many happy blah...",
-  "sendButtonLabel": "Send",
+  "textInChatBox": "Cool happy birthday cards",
+  "sendButtonLabel": "Search",
   "text2": "That's what I was going to do.",
   "text3": "But then I stopped.",
   "text4": "I realised, I wanted to do something",
@@ -16,8 +16,5 @@
   "smiley": ":)",
   "bigTextPart1": "S",
   "bigTextPart2": "O",
-  "wishHeading": "Happy Birthday!",
-  "outroText": "Okay, now come back and tell me if you liked it.",
-  "replayText": "Or click, if you want to watch it again.",
-  "outroSmiley": ":)"
+  "wishHeading": "Happy  Birthday!"
 }
