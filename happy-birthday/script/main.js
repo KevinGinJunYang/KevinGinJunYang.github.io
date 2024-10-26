@@ -281,4 +281,9 @@ const animationTimeline = () => {
 };
 
 // Run fetch and animation in sequence
-fetchData();
+window.addEventListener('load', function() {
+  var audio = document.getElementById('bg-music');
+  audio.muted = false;
+  audio.play();
+  fetchData();
+});
